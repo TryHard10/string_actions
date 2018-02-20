@@ -7,6 +7,7 @@ class MyString
         int getLength(char*);
         void copyChar(char*, char*);
         void reverseChar(char*);
+        int compareChar(char*, char*);
 };
 
 

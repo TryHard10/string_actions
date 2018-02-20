@@ -25,5 +25,9 @@ int main()
     mystr.reverseChar(word);
     cout << "Reversed: " << word << endl;
     cout << "--------------------------------------------" << endl;
+    //Comparing
+    cout << "Comparing Char" << endl;
+    cout << "Result: " << mystr.compareChar(word, word2) << endl;
+    cout << "--------------------------------------------" << endl;
     return 0;
 }

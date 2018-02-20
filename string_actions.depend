@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1518985817 source:e:\c++\string_actions\main.cpp
+1519098046 source:e:\c++\string_actions\main.cpp
 	<iostream>
 	"myString.h"
 
-1518986277 source:e:\c++\string_actions\mystring.cpp
+1519097977 source:e:\c++\string_actions\mystring.cpp
 	"myString.h"
 
-1518986258 e:\c++\string_actions\mystring.h
+1519096977 e:\c++\string_actions\mystring.h
 

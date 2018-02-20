@@ -26,3 +26,29 @@ void MyString::reverseChar(char* reversing)
         j++;
     }
 }
+
+int MyString::compareChar(char* comparing, char* compared)
+{
+    int i=0;
+    bool _equal = true;
+    if(getLength(comparing) > getLength(compared))
+    {
+        return 1;
+    }
+    else
+    {
+        if(getLength(comparing) == getLength(compared))
+        {
+            while(comparing[i] != '\0'&& compared[i] !='\0')
+            {
+                _equal = ((comparing[i] == compared[i])? true:false);
+                if(!_equal){return 2; break;}
+                i++;
+            }
+        }
+        else
+        {
+            return -1;
+        }
+    }
+}
